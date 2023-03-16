@@ -1,36 +1,3 @@
-body {
-    font-family: serif;
-    background-color: aquamarine;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-
-header h1 {
-    color: black;
-    margin: 0;
-    font-size: 3rem;
-}
-
-main {
-    width: 80%;
-    margin: 2rem auto;
-    background-color: oldlace;
-    padding: 2rem;
-    color: wheat;
-}
-
-main h2{
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-footer {
-    background-color: rebeccapurple;
-    text-align: center;
-    padding: 1rem;
-    color: blue;
-    font-size: 0.8rem;
-    position: relative;
-    clear: both;
+p{
+    border: 1.5px solid red;
 }
