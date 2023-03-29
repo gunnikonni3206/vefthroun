@@ -1,0 +1,82 @@
+/* Set the font family and size for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 21px;
+  
+  /* Set the background image to a red cloth texture and cover the whole page */
+  background-image: url('DALL·E 2023-03-22 11.19.15 - red cloth texture.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Style for the main heading of the page */
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Style for secondary headings */
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Style for links and paragraphs */
+a, p {
+  /* Add a border with a light pink color */
+  border: 1px solid rgba(255, 142, 142, 0.605);
+  /* Set the text color to a lighter shade of pink */
+  color: rgb(255, 174, 174);
+  /* Add a shadow effect around the element */
+  box-shadow: 0 0 100px rgb(0, 0, 0);
+}
+
+/* Style for images */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 300px;
+  /* Add a white border around the image */
+  border: 5px solid white;
+  /* Add a shadow effect around the image */
+  box-shadow: 0 0 100px rgb(0, 0, 0);
+  padding: 5px;
+}
+
+/* Style for the header image */
+header img {
+  max-height: 100%;
+  max-width: 100%;
+  /* Set the image to fit the container and keep its aspect ratio */
+  object-fit: contain;
+  /* Add a round border around the image */
+  border-radius: 50%;
+  /* Add a white border around the image */
+  border: 5px solid white;
+  /* Add a shadow effect around the image */
+  box-shadow: 0 0 1000px rgb(0, 0, 0);
+}
+
+/* Style for the horizontal line separator */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Style for the contact information at the bottom of the page */
+pre {
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
