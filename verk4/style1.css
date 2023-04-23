@@ -1,0 +1,339 @@
+* {
+    text-align: center;
+    color: #ffffff;      
+    background-color: #ff283e;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.534);
+}
+
+
+nav {
+    background-color: #ef4545;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    background-color: #f44747;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #742121;
+  }
+  
+  .main-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+  .mid-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .mid-text .text-box {
+    padding: 10px;
+  }
+  
+  .mid-text h2 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .mid-text p {
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  
+  .column {
+    width: 45%;
+  }
+  
+  .text-box {
+    padding: 20px;
+    border: 1px solid #f5f5f5;
+  }
+  /* Add a hover effect to the menu items */
+nav li:hover {
+    background-color: #742121;
+  }
+  
+  /* Add a link color to the menu items */
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Change the color of the link when hovered */
+  nav li a:hover {
+    color: #000000;
+  }
+  
+  /* Add a new section at the bottom */
+  .bottom-text {
+    background-color: #ef4545;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .bottom-text h2 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .bottom-text p {
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #ff283e;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.534);
+  }
+  
+  nav {
+    background-color: #ef4545;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #f44747;
+  }
+  
+  nav li a:hover {
+    background-color: #742121;
+  }
+  
+  .main-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .column {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .text-box {
+    padding: 20px;
+    border: 1px solid #f5f5f5;
+  }
+  
+  .mid-text {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .mid-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .bottom-text {
+    background-color: #ef4545;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .bottom-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .bottom-text p {
+    line-height: 1.5;
+  }
+  
+  /* Media queries */
+  @media only screen and (min-width: 768px) {
+    .column {
+      width: 45%;
+      margin: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .main-text {
+      margin: 100px 0;
+    }
+  }
+  * {
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff283e;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.534);
+  }
+  
+  nav {
+    background-color: #ef4545;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    background-color: #f44747;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #742121;
+  }
+  
+  .main-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+  .mid-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .mid-text .text-box {
+    padding: 10px;
+  }
+  
+  .mid-text h2 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .mid-text p {
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  
+  .column {
+    width: 45%;
+  }
+  
+  .text-box {
+    padding: 20px;
+    border: 1px solid #f5f5f5;
+  }
+  
+  /* Add a hover effect to the menu items */
+  nav li:hover {
+    background-color: #742121;
+  }
+  
+  /* Add a link color to the menu items */
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Change the color of the link when hovered */
+  nav li a:hover {
+    color: #000000;
+  }
+  
+  /* Add a new section at the bottom */
+  .bottom-text {
+    background-color: #ef4545;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .bottom-text h2 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .bottom-text p {
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      height: auto;
+    }
+    
+    nav ul {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    nav li {
+      float: none;
+      width: 100%;
+    }
+    
+    .main-text {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+    
