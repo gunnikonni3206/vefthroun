@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+*{
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.174);
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Finger Paint', cursive;
+  font-size: 72px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #a91e35;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section {
+  margin: 40px 0;
+  width: calc(50% - 20px);
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set global styles */
+body {
+  font-family: 'Finger Paint', cursive;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: rem;
+}
+
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #c0392b;
+}
+
+/* Style header */
+header {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #e73c64;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+}
+
+nav button {
+  background-color: #e73c5b;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+nav button:hover {
+  background-color: #c02b5d;
+}
+
+/* Style main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.left-section, .right-section {
+  background: linear-gradient(rgb(254, 3, 82), rgb(194, 21, 55));
+  padding: 1rem;
+}
+
+.left-section h2, .right-section h2 {
+  font-size: 1.8rem;
+  color: #4e110a;
+}
+
+.left-section p, .right-section p {
+  margin-bottom: 1rem;
+}
+
+/* Style footer */
+footer {
+  background-color: #c0392b;
+  padding: 2rem;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+footer div {
+  margin-bottom: 2rem;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  margin-bottom: 1.5rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  margin-bottom: 0.5rem;
+}
+
+/* Map */
+iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+/* Audio */
+audio {
+  width: 100%;
+}
+
+/* Custom styles */
+body {
+  --main-color: rgba(171, 22, 57, 0.95);
+}
+
+h1 {
+  color: var(--main-color);
+}
+
+/* Custom styles */
+:root {
+  --main-color: rgba(201, 50, 80, 0.916);
+  --secondary-color: #6e204b;
+}
+
+body {
+  font-family: 'Finger Paint', cursive;
+  margin: 0;
+  padding: 0;
+  color: var(--secondary-color);
+  background-color: #5e1e2a;
+}
+
+header {
+  background-color: var(--main-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(253, 1, 51);
+}
+
+nav button,
+footer div {
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+nav button:hover,
+footer div:hover {
+  background-color: var(--secondary-color);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav button {
+  margin-bottom: 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section {
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 40px;
+}
+
+.left-section {
+  order: 1;
+}
+
+.right-section {
+  order: 2;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: row;
+  }
+
+  nav button {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .left-section, .right-section {
+    order: initial;
+  }
+}
